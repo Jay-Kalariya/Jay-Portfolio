@@ -59,13 +59,13 @@ const About = () => (
           />
           <p>JavaScript</p>
         </div>
-        <div className="skill">
+        {/* <div className="skill">
           <img
             src={ReduxIcon}
             alt=""
           />
           <p>Redux</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img
             src={HTML}
@@ -87,13 +87,13 @@ const About = () => (
           />
           <p>jQuery</p>
         </div>
-        <div className="skill">
+        {/* <div className="skill">
           <img
             src={Sass}
             alt=""
           />
           <p>SASS</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img
             src={BootStrap}
