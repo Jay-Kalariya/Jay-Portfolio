@@ -204,10 +204,10 @@ const About = () => (
           <img src={Slack} alt="" />
           <p>Slack</p>
         </div>
-        <div className="skill">
+        {/* <div className="skill">
           <img src={SkypeLogo} alt="" />
           <p>Skype</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img src={GMeet} alt="" />
           <p>Google Meet</p>
