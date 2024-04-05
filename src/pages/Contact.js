@@ -19,9 +19,9 @@ const Contact = () => (
       <div className="interests">
         <p>Frontend Development</p>
         <p>React</p>
-        <p>Backend Development</p>
-        <p>Ruby on Rails</p>
-        <p>WordPress Development</p>
+        <p>Next.Js</p>
+        {/* <p>Ruby on Rails</p> */}
+        {/* <p>WordPress Development</p> */}
         <p>Startups</p>
         <p>New Opportunities</p>
         <p>Coffee</p>
@@ -39,16 +39,16 @@ const Contact = () => (
       <hr />
 
       <div className="social">
-        <span><a href="https://github.com/PrantoshB" target="_blank" rel="noreferrer">GITHUB</a></span>
+        <span><a href="https://github.com/Jay-Kalariya" target="_blank" rel="noreferrer">GITHUB</a></span>
         <span>
           {' '}
-          <a href="https://www.linkedin.com/in/prantosh" target="_blank" rel="noreferrer">LINKEDIN</a>
+          <a href="https://www.linkedin.com/in/jay-kalariya-76b734229" target="_blank" rel="noreferrer">LINKEDIN</a>
         </span>
         <span>
           {' '}
-          <a href="https://wellfound.com/u/prantosh-biswas" target="_blank" rel="noreferrer">WELLFOUND</a>
+          {/* <a href="https://wellfound.com/u/prantosh-biswas" target="_blank" rel="noreferrer">WELLFOUND</a> */}
         </span>
-        <span><a href="https://www.twitter.com/prantalks" target="_blank" rel="noreferrer">TWITTER</a></span>
+        {/* <span><a href="https://www.twitter.com/prantalks" target="_blank" rel="noreferrer">TWITTER</a></span> */}
       </div>
     </div>
   </div>
