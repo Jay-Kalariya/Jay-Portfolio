@@ -33,7 +33,7 @@ const Contact = () => (
 
       <h3>
         MINDING A PROJECT?
-        <span><a href="mailto:jaypatel12209@gmail.com">cOnTaCt mE</a></span>
+        <span><a href="mailto:jaykalariya1209@gmail.com">cOnTaCt mE</a></span>
       </h3>
 
       <hr />

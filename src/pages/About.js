@@ -28,22 +28,27 @@ import NextJS from '../assets/next.webp'
 import JavaScript from '../assets/javascript.png'
 import Sass from '../assets/sass.png'
 import PostMan from '../assets/postman.png'
+import Tailwind from '../assets/taiilwind.png'
+import Sql from '../assets/sql.png'
+import Python from '../assets/python.png'
+
 
 const About = () => (
   <section className="about" id="about">
     <div className="about-me">
       <h2 className="title about-title">aBOUT mE</h2>
       <p className="paragraph about-para">
-        My journey in the world of programming began in 2018, when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications.
+        {/* My journey in the world of programming began in 2018, when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications. */}
+        Results-driven college student at LJ University, excelling in adeptly managing multiple projects with precision. Currently engaged in an internship,gaining valuable knowledge and hands-on experience. Collaborative team player with excellent organizational abilities. Quick learner of new technologies, eager to contribute to a dynamic organization, learn from industry experts, and further develop skills.
       </p>
       <button className="hire-me">
-        <a href="https://drive.google.com/file/d/1RIQlxcFspH89xvugEeEyvgSG_ABMX3rI/view?usp=drive_link" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1yTk5U3e2VNP3pMKCDtPNHrITV8yflRrW/view?usp=sharing" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
       </button>
     </div>
     <div className="about-skills">
-      <h2 className="skill-title">Front-End</h2>
+      <h2 className="skill-title">Skills</h2>
       <div className="skills">
         <div className="skill">
           <img
@@ -82,11 +87,12 @@ const About = () => (
         </div>
         <div className="skill">
           <img
-            src={jQuery}
+            src={Sql}
             alt=""
           />
-          <p>jQuery</p>
+          <p>SQL</p>
         </div>
+       
         {/* <div className="skill">
           <img
             src={Sass}
@@ -103,14 +109,28 @@ const About = () => (
         </div>
         <div className="skill">
           <img
+            src={Tailwind}
+            alt=""
+          />
+          <p>Tailwind</p>
+        </div>
+        <div className="skill">
+          <img
             src={NextJS}
             alt=""
           />
           <p>Next.js</p>
         </div>
+        <div className="skill">
+          <img
+            src={Python}
+            alt=""
+          />
+          <p>Python</p>
+        </div>
       </div>
-      <h2 className="skill-title">Back-End</h2>
-      <div className="skills">
+      {/* <h2 className="skill-title">Back-End</h2> */}
+      {/* <div className="skills">
         <div className="skill">
           <img
             src={Ruby}
@@ -132,9 +152,9 @@ const About = () => (
           />
           <p>PostgreSQL</p>
         </div>
-      </div>
-      <h2 className="skill-title">Mobile</h2>
-      <div className="skills">
+      </div> */}
+      {/* <h2 className="skill-title">Mobile</h2> */}
+      {/* <div className="skills">
         <div className="skill">
           <img
             src={ReactIcon}
@@ -147,7 +167,7 @@ const About = () => (
           <p>Flutter</p>
         </div>
 
-      </div>
+      </div> */}
       <h2 className="skill-title">Tools</h2>
       <div className="skills">
         <div className="skill">
@@ -158,30 +178,30 @@ const About = () => (
           <img src={GitHublogo} alt="" />
           <p>GitHub</p>
         </div>
-        <div className="skill">
+        {/* <div className="skill">
           <img src={RSpecLogo} alt="" />
           <p>RSpec</p>
-        </div>
-        <div className="skill">
+        </div> */}
+        {/* <div className="skill">
           <img src={JEST} alt="" />
           <p>JEST</p>
-        </div>
-        <div className="skill">
+        </div> */}
+        {/* <div className="skill">
           <img src={CDT} alt="" />
           <p>Chrome Dev Tools</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img src={VSCode} alt="" />
           <p>VS Code</p>
         </div>
-        <div className="skill">
+        {/* <div className="skill">
           <img src={WebPack} alt="" />
           <p>Webpack</p>
-        </div>
-        <div className="skill">
+        </div> */}
+        {/* <div className="skill">
           <img src={PostMan} alt="" />
           <p>Postman</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img src={NPMlogo} alt="" />
           <p>npm</p>
@@ -189,10 +209,10 @@ const About = () => (
       </div>
       <h2 className="skill-title">Design</h2>
       <div className="skills">
-        <div className="skill">
+        {/* <div className="skill">
           <img src={Canva} alt="" />
           <p>Canva</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img src={Figma} alt="" />
           <p>Figma</p>
