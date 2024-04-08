@@ -1,40 +1,52 @@
 import React from 'react';
 import './Projects.css';
 import ProjectCard from '../components/ProjectCard';
-import Raajsolar from '../assets/raajsolar.png';
+import Raajsolar from '../assets/RAAJ-SOLAR.png';
+import Siddhguruimg from '../assets/SIDDHGURU.png';
+import Portfolioimg from '../assets/portfolio.png';
+import Roayltoucheimg from '../assets/royaltouche.png';
+import PvotIMg from '../assets/pvotimg.png';
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      image_url: Raajsolar,
-      project_name: 'Raaj Solar',
-      description: 'Description of Project 1',
-      tech_stack:["React","Sass"],
-      source_link: 'https://raajsolar.com/'
+      image_url: Roayltoucheimg,
+      project_name: 'Royale-Touche Website',
+      // description: 'Description of Project 1',
+      tech_stack:["Next"],
+      source_link: 'https://royale-touche.vercel.app/'
     },
     {
       id: 2,
-      image_url: 'project2_image_url',
-      project_name: 'Portfolio',
-      description: 'My Personal Portfolio',
-      tech_stack: ['React'],
-      source_link: 'https://jay-kalariya.vercel.app/'
+      image_url: Siddhguruimg,
+      project_name: 'Siddhguru Website',
+      // description: 'My Personal Portfolio',
+      tech_stack: ['React',"Sass"],
+      source_link: 'https://www.sribrahmrishiashram.org/'
     },
      {
       id: 3,
-      image_url: 'project2_image_url',
-      project_name: 'Project 2',
-      description: 'Description of Project 2',
-      tech_stack: ['Tech 3', 'Tech 4'],
-      source_link: 'https://github.com/project2'
+      image_url: Raajsolar,
+      project_name: 'Raaj-Solar Website',
+      // description: 'Description of Project 2',
+      tech_stack: ['React', 'Sass'],
+      source_link: 'https://raajsolar.com/'
     },
     {
         id: 4,
-        image_url: 'project2_image_url',
-        project_name: 'Project 2',
-        description: 'Description of Project 2',
-        tech_stack: ['Tech 3', 'Tech 4'],
-        source_link: 'https://github.com/project2'
+        image_url: Portfolioimg,
+        project_name: 'My Personal Portfolio',
+        // description: 'Description of Project 2',
+        tech_stack: ['React'],
+        source_link: 'https://github.com/,project2'
+      },
+      {
+        id: 5,
+        image_url: PvotIMg,
+        project_name: 'PVOT Website',
+        // description: 'Description of Project 2',
+        tech_stack: ['React'],
+        source_link: 'https://humbee-developers.github.io/PVOT/'
       }
     // Add more projects as needed
   ];
