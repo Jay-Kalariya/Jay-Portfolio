@@ -6,6 +6,7 @@ import Siddhguruimg from '../assets/SIDDHGURU.png';
 import Portfolioimg from '../assets/portfolio.png';
 import Roayltoucheimg from '../assets/royaltouche.png';
 import PvotIMg from '../assets/pvotimg.png';
+import Interiormaata from '../assets/Interiorimg.png';
 const Projects = () => {
   const projects = [
     {
@@ -13,7 +14,7 @@ const Projects = () => {
       image_url: Roayltoucheimg,
       project_name: 'Royale-Touche Website',
       // description: 'Description of Project 1',
-      tech_stack:["Next"],
+      tech_stack:["NextJs"],
       source_link: 'https://royale-touche.vercel.app/'
     },
     {
@@ -47,8 +48,15 @@ const Projects = () => {
         // description: 'Description of Project 2',
         tech_stack: ['React'],
         source_link: 'https://humbee-developers.github.io/PVOT/'
+      },
+      {
+        id: 6,
+        image_url: Interiormaata,
+        project_name: 'InteriorMaata Website',
+        // description: 'Description of Project 2',
+        tech_stack: ['NextJs'],
+        source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
       }
-    // Add more projects as needed
   ];
 
   return (
