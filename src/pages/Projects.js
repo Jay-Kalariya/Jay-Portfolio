@@ -15,7 +15,9 @@ const Projects = () => {
       project_name: 'Royale-Touche Website',
       // description: 'Description of Project 1',
       tech_stack:["NextJs"],
-      source_link: 'https://royale-touche.vercel.app/'
+      // source_link: 'https://royale-touche.vercel.app/'
+      source_link: 'https://plywood.royaletouche.com/'
+      // https://plywood.royaletouche.com/
     },
     {
       id: 2,
@@ -39,7 +41,7 @@ const Projects = () => {
         project_name: 'My Personal Portfolio',
         // description: 'Description of Project 2',
         tech_stack: ['React'],
-        source_link: 'https://github.com/,project2'
+        source_link: 'https://jaykalariya.vercel.app/'
       },
       {
         id: 5,
@@ -55,7 +57,9 @@ const Projects = () => {
         project_name: 'InteriorMaata Website',
         // description: 'Description of Project 2',
         tech_stack: ['NextJs'],
-        source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
+        
+        source_link: 'https://interiormaata.com/'
+        // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
       }
   ];
 
