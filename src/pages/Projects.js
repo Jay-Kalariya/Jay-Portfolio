@@ -7,6 +7,9 @@ import Portfolioimg from '../assets/portfolio.png';
 import Roayltoucheimg from '../assets/royaltouche.png';
 import PvotIMg from '../assets/pvotimg.png';
 import Interiormaata from '../assets/Interiorimg.png';
+import Building from "../assets/image.png";
+import Building1 from "../assets/image2.png";
+import Building2 from "../assets/image3.png";
 const Projects = () => {
   const projects = [
     {
@@ -35,6 +38,16 @@ const Projects = () => {
       tech_stack: ['React', 'Sass'],
       source_link: 'https://raajsolar.com/'
     },
+          {
+        id: 9,
+        image_url: Building2,
+        project_name: 'Agency Website Freelancing',
+        // description: 'Description of Project 2',
+        tech_stack: ['NextJs'],
+        
+        source_link: 'https://roardata.com.au/'
+        // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
+      },
     {
         id: 4,
         image_url: Portfolioimg,
@@ -60,7 +73,28 @@ const Projects = () => {
         
         source_link: 'https://interiormaata.com/'
         // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
-      }
+      },
+      {
+        id: 7,
+        image_url: Building,
+        project_name: 'The Building Company',
+        // description: 'Description of Project 2',
+        tech_stack: ['HTML CSS JS'],
+        
+        source_link: 'https://thebuildingcompany.vercel.app/'
+        // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
+      },
+         {
+        id: 8,
+        image_url: Building1,
+        project_name: 'Website Template',
+        // description: 'Description of Project 2',
+        tech_stack: ['HTML CSS JS'],
+        
+        source_link: 'https://website-template-teal.vercel.app/'
+        // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
+      },
+     
   ];
 
   return (
