@@ -11,6 +11,7 @@ import Building from "../assets/image.png";
 import Building1 from "../assets/image2.png";
 import Building2 from "../assets/image3.png";
 import crown from "../assets/image4.png";
+import credai from "../assets/image5.png";
 const Projects = () => {
   const projects = [
     {
@@ -105,7 +106,16 @@ const Projects = () => {
         source_link: 'https://website-template-teal.vercel.app/'
         // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
       },
-     
+       {
+        id: 11,
+        image_url: credai,
+        project_name: 'Credai Rera',
+        // description: 'Description of Project 2',
+        tech_stack: ['HTML CSS JS'],
+        
+        source_link: 'https://reraarea.com/'
+        // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
+      },
   ];
 
   return (
