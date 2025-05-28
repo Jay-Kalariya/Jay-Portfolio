@@ -10,6 +10,7 @@ import Interiormaata from '../assets/Interiorimg.png';
 import Building from "../assets/image.png";
 import Building1 from "../assets/image2.png";
 import Building2 from "../assets/image3.png";
+import crown from "../assets/image4.png";
 const Projects = () => {
   const projects = [
     {
@@ -46,6 +47,16 @@ const Projects = () => {
         tech_stack: ['NextJs'],
         
         source_link: 'https://roardata.com.au/'
+        // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
+      },
+              {
+        id: 10,
+        image_url: crown,
+        project_name: 'Royal Crown',
+        // description: 'Description of Project 2',
+        tech_stack: ['NextJs'],
+        
+        source_link: 'https://royalcrownfont.vercel.app/'
         // source_link: 'https://humbee-developers.github.io/InteriorMaata-/'
       },
     {
