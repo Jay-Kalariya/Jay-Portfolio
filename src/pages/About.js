@@ -39,10 +39,17 @@ const About = () => (
       <h2 className="title about-title">aBOUT mE</h2>
       <p className="paragraph about-para">
         {/* My journey in the world of programming began in 2018, when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications. */}
-        Results-driven college student at LJ University, excelling in adeptly managing multiple projects with precision. Currently engaged in an internship,gaining valuable knowledge and hands-on experience. Collaborative team player with excellent organizational abilities. Quick learner of new technologies, eager to contribute to a dynamic organization, learn from industry experts, and further develop skills.
+        {/* Results-driven college student at LJ University, excelling in adeptly managing multiple projects with precision. Currently engaged in an internship,gaining valuable knowledge and hands-on experience. Collaborative team player with excellent organizational abilities. Quick learner of new technologies, eager to contribute to a dynamic organization, learn from industry experts, and further develop skills. */}
+        <div>
+          Recently graduated in Computer Science Engineering from LJ University with 1 year of hands-on experience
+        as a Frontend Developer, specializing in React.js. Proven ability to communicate effectively with clients and
+        manage requirements. Delivered freelance projects professionally, showcasing a strong grasp of modern
+        web development practices.Experienced in working collaboratively within a team, attending client meetings,
+        and continuously improving code accuracy and project efficiency.
+        </div>
       </p>
       <button className="hire-me">
-        <a href="https://drive.google.com/file/d/1yTk5U3e2VNP3pMKCDtPNHrITV8yflRrW/view?usp=sharing" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1fCDwttkfQEq10TCEcP0fIcw60MjkQ_ud/view" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
       </button>
@@ -92,7 +99,7 @@ const About = () => (
           />
           <p>SQL</p>
         </div>
-       
+
         {/* <div className="skill">
           <img
             src={Sass}
