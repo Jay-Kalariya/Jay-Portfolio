@@ -49,7 +49,7 @@ const About = () => (
         </div>
       </p>
       <button className="hire-me">
-        <a href="https://drive.google.com/file/d/1fCDwttkfQEq10TCEcP0fIcw60MjkQ_ud/view" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/12b9ewGLlKEIQXvPnqFRz5C6o428qNBXO/view?usp=sharing" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
       </button>
